@@ -156,7 +156,7 @@ const CartPage = () => {
                       className="m-5 font-semibold"
                       variant="destructive"
                     >
-                      Reset Cart
+                      Xóa giỏ hàng
                     </Button>
                   </div>
                 </div>
@@ -191,7 +191,7 @@ const CartPage = () => {
                         className="w-full cursor-pointer rounded-full font-semibold tracking-wide"
                         size="lg"
                       >
-                        {loading ? 'Processing' : 'Proceed to Checkout'}
+                        {loading ? 'Đang xử lý' : 'Tiếp tục thanh toán'}
                       </Button>
                       <Link
                         href="/"
@@ -231,7 +231,7 @@ const CartPage = () => {
                         className="w-full rounded-full font-semibold tracking-wide"
                         size="lg"
                       >
-                        {loading ? 'Processing' : 'Proceed to Checkout'}
+                        {loading ? 'Đang xử lý' : 'Tiếp tục thanh toán'}
                       </Button>
                       <Link
                         href="/"

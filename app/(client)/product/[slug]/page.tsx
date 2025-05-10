@@ -33,9 +33,13 @@ const ProductPage = async ({ params }: { params: Promise<{ slug: string }> }) =>
               className="text-lg font-bold"
             />
           </div>
-          {product?.stock && (
+          {product?.stock ? (
             <p className="bg-green-100 w-24 text-center text-green-600 text-sm py-2.5 font-semibold rounded-lg">
-              In Stock
+              Còn hàng
+            </p>
+          ) : (
+            <p className="bg-red-100 w-24 text-center text-red-600 text-sm py-2.5 font-semibold rounded-lg">
+              Hết hàng
             </p>
           )}
 

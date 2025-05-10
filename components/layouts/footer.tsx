@@ -42,8 +42,8 @@ const Footer = () => {
           <div className="space-y-4">
             <Logo>E-mart</Logo>
             <p className="text-gray-600 text-sm">
-              Discover curated furniture collections at E-mart, blending style and comfort to
-              elevate your living spaces.
+              Khám phá bộ sưu tập nội thất được chọn lọc tại E-mart, kết hợp giữa phong cách và
+              thoải mái để nâng cao không gian sống của bạn.
             </p>
             <SocialMedia
               className="text-darkColor/60"
@@ -88,14 +88,14 @@ const Footer = () => {
 
           {/* Newsletter section */}
           <div>
-            <h3 className="font-semibold text-gray-900 mb-4">Newsletter</h3>
+            <h3 className="font-semibold text-gray-900 mb-4">Bản tin</h3>
             <p className="text-gray-600 text-sm mb-4">
-              Subscribe to our newsletter to receive updates and exclusive offers.
+              Đăng ký nhận bản tin của chúng tôi để nhận được cập nhật và ưu đãi độc quyền.
             </p>
             <form className="space-y-3">
               <input
                 type="email"
-                placeholder="Enter your email"
+                placeholder="Nhập email của bạn"
                 required
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-200"
               />
@@ -103,7 +103,7 @@ const Footer = () => {
                 type="submit"
                 className="w-full bg-gray-900 text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition-colors"
               >
-                Subscribe
+                Đăng ký
               </button>
             </form>
           </div>

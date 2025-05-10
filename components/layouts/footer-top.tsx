@@ -8,22 +8,22 @@ interface ContactItemData {
 
 const data: ContactItemData[] = [
   {
-    title: 'Visit Us',
-    subtitle: 'New Orlean, USA',
+    title: 'Về chúng tôi',
+    subtitle: 'Hà Nội, Việt Nam',
     icon: <MapPin className="h-6 w-6 text-gray-600 group-hover:text-darkColor transition-colors" />,
   },
   {
-    title: 'Call Us',
-    subtitle: '+12 958 648 597',
+    title: 'Liên hệ chúng tôi',
+    subtitle: '+64 123 456 789',
     icon: <Phone className="h-6 w-6 text-gray-600 group-hover:text-darkColor transition-colors" />,
   },
   {
-    title: 'Working Hours',
-    subtitle: 'Mon - Sat: 10:00 AM - 7:00 PM',
+    title: 'Giờ làm việc',
+    subtitle: 'Thứ 2 - Thứ 7: 10:00 AM-7:00 PM',
     icon: <Clock className="h-6 w-6 text-gray-600 group-hover:text-darkColor transition-colors" />,
   },
   {
-    title: 'Email Us',
+    title: 'Email chúng tôi',
     subtitle: 'E-mart@gmail.com',
     icon: <Mail className="h-6 w-6 text-gray-600 group-hover:text-darkColor transition-colors" />,
   },

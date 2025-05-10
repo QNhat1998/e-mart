@@ -85,7 +85,7 @@ const AddToCartButton = ({ product, className }: Props) => {
             className
           )}
         >
-          Add to cart
+          Thêm vào giỏ hàng
         </Button>
       )}
     </div>
